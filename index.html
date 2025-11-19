@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
-    <title>AI JS Sederhana</title>
-  </head>
-  <body>
-    <h3>Prediksi</h3>
-    <button id="train">Train Model</button>
-    <button id="predict">Predict</button>
-    <div id="output"></div>
+<head>
+  <meta charset="utf-8" />
+  <title>Translator EN → ID</title>
+</head>
+<body>
+  <h2>Translator Bahasa Inggris → Indonesia</h2>
+  <textarea id="inputText" rows="5" cols="50" placeholder="Tulis teks bahasa Inggris di sini"></textarea><br>
+  <button id="translateBtn">Terjemahkan</button>
+  <h3>Hasil Terjemahan:</h3>
+  <div id="result"></div>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="translator.js"></script>
+</body>
 </html>
